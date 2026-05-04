@@ -5,7 +5,7 @@ target: disease_cases
 adapters: {'target': 'disease_cases'}
 
 docker_env:
-  image: mean-r:latest
+  image: ghcr.io/dhis2-chap/chapkit-r-tidyverse:latest
 
 entry_points:
   train:
